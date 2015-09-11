@@ -1,0 +1,66 @@
+# Site settings
+
+url: "http://nayanshah.github.io"
+title: "{ Nayan Shah }"
+description: "Blog and website of Panos Sakkos, blogging mainly for tech. Opinions expressed are mine."
+keywords: "nayan, shah, nayan shah, technology, computer science, Microsoft"
+favicon: "/img/favicon.ico"
+black-favicon: "/img/black-lab-glass.ico"
+google-tracking-id: "UA-35880426-3"
+disqus-shortname: "nayanshah"
+
+# Navigation bar links
+# Blog link in the blog and post pages will point to the blog.html#blog
+# In the default page it will point to the preview of the last post
+
+pages_list:
+  About: 'about'
+  Blog: 'blog'
+  Career: 'career'
+  Contact: 'contact'
+
+background-img: "/img/intro-bg.jpg"
+
+# About variables
+
+me-img: "/img/me.jpg"
+
+# Blog variables
+paginate: 15
+
+paginate_path: "blog/page:num"
+
+post-preview-words: 128
+
+fb-share: True
+twitter-share: True
+reddit-share: True
+
+# Career variables
+
+events:
+  - image: "/img/career/microsoft.jpg"
+    date: "November 2014 - Today"
+    description: "Software Engineer @ Microsoft Redmond, working @ Office Engineering"
+  - image: "/img/career/microsoft.jpg"
+    date: "October 2013 - November 2014"
+    description: "Software Engineer @ Microsoft European Development Center, Dublin working @ <a href=\"http://store.office.com/\" target=\"_blank\"> Office Marketplace Experience</a>"
+
+# First image of the Career timeline
+career-img: "/img/career/default.jpg"
+
+# Social networks variables (many more available: facebook, flickr, dribbble, pinterest, instagram, tumblr etc.)
+social:
+  - title: "rss"
+    url: "/feed.xml"
+  - title: "github"
+    url: "https://github.com/NayanShah"
+  - title: "linkedin"
+    url: "http://no.linkedin.com/in/NayanMShah"
+  - title: "facebook"
+    url: "http://www.facebook.com/nayanshah"
+
+404-img: "/img/labtocat.png"
+
+# Exclusion list from the generated _site
+exclude: ["Rakefile", "LICENSE", "readme.markdown", "vendor"]
