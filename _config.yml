@@ -41,10 +41,13 @@ reddit-share: True
 events:
   - image: "/img/career/microsoft.jpg"
     date: "November 2014 - Today"
-    description: "Software Engineer @ Microsoft Redmond, working @ Office Engineering"
+    description: "Software Engineer @ Microsoft Redmond working @ Office Engineering"
   - image: "/img/career/microsoft.jpg"
     date: "October 2013 - November 2014"
     description: "Software Engineer @ Microsoft European Development Center, Dublin working @ <a href=\"http://store.office.com/\" target=\"_blank\"> Office Marketplace Experience</a>"
+  - image: "/img/career/iitbhu.jpg"
+    date: "July 2008 - May 2013"
+    description: "Integrated Masters in Mathematics &amp; Computing @ <a href=\"http://iitbhu.ac.in/\" target=\"_blank\">Indian Institute of Technology, Varanasi</a>"
 
 # First image of the Career timeline
 career-img: "/img/career/default.jpg"
