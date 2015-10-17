@@ -12,7 +12,7 @@
       <div class="col-lg-8 col-lg-offset-2">
 
         <h1><strong>{{ page.title }}</strong></h1>
-      	<h4><strong>{{ page.date | date_to_string }}</strong>
+        <h4><strong>{{ page.date | date_to_string }}</strong>
           <small> . {{ page.category }} . <a href="{{ page.url }}#disqus_thread">Comments</a><p/>
           {% for tag in page.tags %}
             <a href="/tags/{{ tag }}.html">#{{ tag }}</a>
@@ -20,11 +20,7 @@
           </small>
         </h4>
 
-      	{{ page.content | markdownify }}
-
-      	{% include share.html %}
-
-        {% include comments.html %}
+        {{ page.content | markdownify }}
 
       </div>
     </div>
@@ -33,7 +29,7 @@
   <section id="{{ page.title }}" class="container content-section text-center">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2">
-	{% include social-buttons.html %}
+        {% include social-buttons.html %}
       </div>
     </div>
   </section>
